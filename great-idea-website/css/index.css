@@ -65,13 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 *{
-	box-sizing: border-box; display: inline-block;
-	padding: 2%;
-	margin: 1%;
+	/* box-sizing: border-box;  */
+	/* padding: 2%;
+	margin: 1%; */
 	border: 1px solid grey;
     font-family: 'Titillium Web', sans-serif;
 }
-
+head{
+	display:none;
+}
 nav{
 	text-align: center;
 	color: grey;
@@ -87,15 +89,28 @@ nav a{
 
 .logo{
 	margin-left: 20%;
+	vertical-align: middle;
 }
 
 .headertext{ 
 	width: 45%;
 	text-align: center;
-	margin: auto;
+	/* margin: auto; */
 	display: inline-block;
 	vertical-align: middle;
-	padding: auto;
+	/* padding: auto; */
+}
+
+.headertext h1{
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+}
+.headertext button{
+	display: block;
+	text-align: center;
+	margin-left: 27%;
+	width: 45%;
 }
 .image{
 	width: 30%;
@@ -148,15 +163,13 @@ section .vision{
 	width: 15%;
 }
 
-h4{
-	margin-left: 19%;
-	padding: 2%
+.contact h4{
+	margin-left: 10%;
+	width: 20%;
 }
-
-.contact div{
-	text-align: center;
-}	
-
+.contact ul{
+	margin-left: 10%;
+}
 footer{
 	text-align: center;
 	margin: 5%;
