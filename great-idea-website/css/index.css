@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	/* box-sizing: border-box;  */
+	/* padding: 2%;
+	margin: 1%; */
+	border: 1px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+}
+head{
+	display:none;
+}
+nav{
+	text-align: center;
+	color: grey;
+	width: 100%;
+	display: inline-block;
+	margin: 0 5%;
+	padding-bottom: 3%;
+}
+
+nav a{
+	padding-right: 5%;
+}
+
+.logo{
+	margin-left: 20%;
+	vertical-align: middle;
+}
+
+.headertext{ 
+	width: 45%;
+	text-align: center;
+	/* margin: auto; */
+	display: inline-block;
+	vertical-align: middle;
+	/* padding: auto; */
+}
+
+.headertext h1{
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+}
+.headertext button{
+	display: block;
+	text-align: center;
+	margin-left: 27%;
+	width: 45%;
+}
+.image{
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	padding: auto;
+}
+
+section .feature{
+	width: 35%;
+	text-align: auto;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+section .about{
+	width: 35%;
+	text-align: auto;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+section .middle-img{
+	border-top: black;
+	margin-left: 10%;margin-top: 2%;margin-bottom: 2%;
+	padding-top: 2%;
+}
+
+section .services{
+	display: inline-block;
+	width: 15%;
+	margin-left: 10%;margin-top: 2%;margin-bottom: 2%; margin-right: 2%;
+	padding-top: 2%;
+}
+
+section .product{
+	display: inline-block;
+	width: 15%;
+	margin-right: 2%;
+}
+
+section .vision{
+	display: inline-block;
+	width: 15%;
+}
+
+.contact h4{
+	margin-left: 10%;
+	width: 20%;
+}
+.contact ul{
+	margin-left: 10%;
+}
+footer{
+	text-align: center;
+	margin: 5%;
+	padding: 2%
+}
